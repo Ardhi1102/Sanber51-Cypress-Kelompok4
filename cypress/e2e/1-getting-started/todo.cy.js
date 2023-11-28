@@ -13,6 +13,13 @@
 
 describe('example to-do app', () => {
   beforeEach(() => {
+<<<<<<< HEAD
+=======
+    // Cypress starts out with a blank slate for each test
+    // so we must tell it to visit our website with the `cy.visit()` command.
+    // Since we want to visit the same URL at the start of all our tests,
+    // we include it in our beforeEach function so that it runs before each test
+>>>>>>> branch1
     cy.visit('https://example.cypress.io/todo')
   })
 
@@ -26,7 +33,11 @@ describe('example to-do app', () => {
     // the correct text. We use the `first` and `last` functions
     // to get just the first and last matched elements individually,
     // and then perform an assertion with `should`.
+<<<<<<< HEAD
     cy.get('.todo-list li').first().should('have.text', 'Pay electric billxxxxxxxxxxxt')
+=======
+    cy.get('.todo-list li').first().should('have.text', 'Pay electric bill')
+>>>>>>> branch1
     cy.get('.todo-list li').last().should('have.text', 'Walk the dog')
   })
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import loginPage from '../../../support/pageObject/loginPage'
 const userData = require('../../../fixtures/userData.json')
 
@@ -46,5 +47,10 @@ describe('Verify Saucedemo Login Functionlity', () => {
         cy.get('[data-test="error"]').should('be.visible')
       })
     })
+=======
+describe('template spec', () => {
+  it('passes', () => {
+    cy.visit('https://example.cypress.io')
+>>>>>>> branch1
   })
 })

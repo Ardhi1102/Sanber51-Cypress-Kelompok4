@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class loginPage{
     usrnm = '#user-name'
     pswd = '[data-test="password"]'
@@ -23,3 +24,12 @@ class loginPage{
 
 }
 export default new loginPage()
+=======
+class loginPage  {
+    email = '#email' 
+    password = '.login-container > .block-customer-login > .block-content > #login-form > .fieldset > .password > .control > #pass'
+    loginbutton = '.login-container > .block-customer-login > .block-content > #login-form > .fieldset > .actions-toolbar > div.primary > #send2 > span'
+
+}
+    export default new loginPage()
+>>>>>>> branch1
