@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "devDependencies": {
     "cypress": "^13.5.1"
   },
@@ -193,4 +194,19 @@
     "url": "https://github.com/elvanisa/Sanber51/issues"
   },
   "homepage": "https://github.com/elvanisa/Sanber51#readme"
+=======
+  "name": "qasanber51",
+  "version": "1.0.0",
+  "description": "QA Intensive Bootcamp Batch 51",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  }
+>>>>>>> branch1
 }

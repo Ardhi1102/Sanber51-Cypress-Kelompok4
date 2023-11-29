@@ -1,5 +1,6 @@
 {
     "valid": {
+<<<<<<< HEAD
         "valid_user": "standard_user",
         "valid_password": "secret_sauce"
     },
@@ -17,4 +18,12 @@
             "invalid_pass": "secret_sauce1234567"
         }
 ]  
+=======
+    "valid_email": "magicgibsonbeat@gmail.com",
+    "valid_password": "MagicGibsonBeat123"
+    },
+    "invalid":{
+    "invalid_email": "agicgibsonbeat@gmail.com"
+    }
+>>>>>>> branch1
 }
