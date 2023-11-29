@@ -1,1 +1,2 @@
-file branch1 new...
+ini file dari branch1
+
